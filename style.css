@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    --boldTxt: "Rubik", serif;
+    --boldSize: 700;
+    --txtOpticSize:auto;
+    --cardbg:#fcf4f4;
+    --btncolor:#e7e1e1;
+    --otherbtn:rgb(252, 87, 252);
+}
+
+body{
+    background-color: black;
+}
