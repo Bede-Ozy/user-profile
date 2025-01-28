@@ -11,3 +11,136 @@
 body{
     background-color: black;
 }
+
+.userCard{
+    width:400px;
+    height:70vh;
+    background-color: white;
+    margin:auto;
+    margin-top:15vh;
+    border-radius:30px;
+    padding:25px;
+
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+
+
+}
+
+.userCard > * {
+    width:100%;
+    height:40px;
+
+    
+}
+.userRow{
+        height:100px;
+        display:flex;
+        gap:5px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+.img{
+    display:flex;
+   
+
+            
+}
+img{
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+}
+.img p{
+    font-family:var(--boldTxt);
+    font-weight:800;
+    padding-left:10px; 
+    line-height: 25px;
+}
+
+.img>p>span{
+    font-weight:300;
+    padding:5px;
+    border:1px solid black;
+    border-radius:15px;
+}
+
+.profileicons{
+    width:fit-content;
+    height:fit-content;
+    
+    border-radius:5px;
+    display:flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width:50px;
+    height:40px;
+    background-color: var(--btncolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:15px;
+}
+
+.transaction{
+    width:100%;
+    height:60px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    width:45%;
+    height:80%;
+    border:none;
+    background-color: var(--btncolor);
+    border-radius: 10px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: var(--boldSize);
+    cursor:pointer;
+}
+
+.history{
+    display: flex;
+    flex-direction: column;
+}
+
+.friends{
+    display:flex;
+    gap:5px;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+.frndsTxt{
+    width:200px;
+    
+}
+
+.frndsTxt h2, .frndsTxt p{
+    line-height: 12.5px;
+}
+
+.frndsImgs{
+    display:flex;
+    gap:-15px;
+
+    img{
+        width:40px;
+        height:40px;
+        border:3px solid white;
+        margin-left:-15px;
+        box-shadow:-5px -10px 5px black;
+    }
+}
