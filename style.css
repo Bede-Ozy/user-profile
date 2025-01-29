@@ -14,7 +14,7 @@ body{
 
 .userCard{
     width:400px;
-    height:70vh;
+    height:80vh;
     background-color: white;
     margin:auto;
     margin-top:15vh;
@@ -60,6 +60,10 @@ img{
     line-height: 25px;
 }
 
+.level{
+    background-color:var(--otherbtn);
+    color:white;
+}
 .img>p>span{
     font-weight:300;
     padding:5px;
@@ -81,11 +85,12 @@ img{
 .icon{
     width:50px;
     height:40px;
-    background-color: var(--btncolor);
+    background-color: var(--cardbg);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius:15px;
+    color:var(--boldTxt);
 }
 
 .transaction{
@@ -113,13 +118,14 @@ button{
 .history{
     display: flex;
     flex-direction: column;
+    gap:5px;
 }
 
 .friends{
     display:flex;
     gap:5px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width:100%;
 }
 
@@ -135,12 +141,48 @@ button{
 .frndsImgs{
     display:flex;
     gap:-15px;
+    align-items: center;
+    justify-content: space-around;
 
-    img{
-        width:40px;
-        height:40px;
+    
+}
+.frndsImgs img{
+        width:30px;
+        height:30px;
         border:3px solid white;
-        margin-left:-15px;
-        box-shadow:-5px -10px 5px black;
-    }
+        margin-left:-10px;
+        box-shadow:-3px 0px 5px rgb(203, 203, 203);
+}
+.icon2{
+    background-color: transparent;
+}
+
+.icon2:hover{
+    background-color: var(--btncolor);
+}
+
+.transactions{
+    height: 70px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 6px 
+}
+.pay{
+    display:flex;
+    height:70px;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 6px;
+}
+
+.pay a{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    background-color: var(--otherbtn);
+    padding:10px;
+    color:var(--boldTxt);
+    text-decoration:none;
+    border-radius:50px;
 }
